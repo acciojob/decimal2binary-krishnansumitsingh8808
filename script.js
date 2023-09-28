@@ -1,7 +1,9 @@
 function decimalToBinary(num) {
 	
-  let binary = num.toString( 2 );
-	let binary=(num>>0).toString(2);
+ if(num>>0){
+	 let binary = decimal.toString( 2 );
+ }
+	return binary;
   
 }
 
